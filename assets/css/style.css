@@ -2260,7 +2260,7 @@ ul.shipping {
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 95%;
+    max-width: 93%;
   }
 
   header:not(.header2) .topbar {
