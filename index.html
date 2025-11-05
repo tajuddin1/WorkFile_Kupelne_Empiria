@@ -13,7 +13,7 @@
     .btn-primary {
       position: relative;
       display: inline-block;
-      padding: 10px 24px;
+      padding: 10px 20px;
       border-radius: 4px;
       line-height: 1.2;
       background: linear-gradient(#fff, #fff) padding-box,
@@ -57,14 +57,20 @@
           <a href="/" class="logo">
             <img src="assets/images/logo.svg" alt="">
           </a>
-          <ul class="menu-items">
-            <li><a href="#" class="nav-link">Pre Verejnosť <i class="fa-solid fa-angle-down"></i></a></li>
-            <li><a href="#" class="nav-link">Pre firmy <i class="fa-solid fa-angle-down"></i></a></li>
-            <li><a href="#" class="nav-link">O nás</a></li>
-            <li><a href="#" class="nav-link">Kontakt</a></li>
-            <li><a href="#" class="btn-primary">Chcem návrh na mieru</a></li>
-            <li><a href="#" class="btn-primary active">Prejsť do eshopu</a></li>
-          </ul>
+          <div class="menu" id="navMenu">
+            <ul class="menu-items">
+              <li><a href="#" class="nav-link">Pre Verejnosť <i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href="#" class="nav-link">Pre firmy <i class="fa-solid fa-angle-down"></i></a></li>
+              <li><a href="#" class="nav-link">O nás</a></li>
+              <li><a href="#" class="nav-link">Kontakt</a></li>
+              <li><a href="#" class="btn-primary">Chcem návrh na mieru</a></li>
+              <li><a href="#" class="btn-primary active">Prejsť do eshopu</a></li>
+            </ul>
+          </div>
+          <div id="burgerBtn" class="burger-menu">
+            <i class="fa-solid fa-bars bars"></i>
+            <i class="fa-solid fa-xmark cross"></i>
+          </div>
         </div>
       </div>
     </nav>
@@ -327,5 +333,6 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/menu.js"></script>
 </body>
 </html>
